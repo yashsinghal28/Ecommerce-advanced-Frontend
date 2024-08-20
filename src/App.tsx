@@ -49,10 +49,10 @@ const DiscountManagement = lazy(
 const NewDiscount = lazy(() => import("./pages/admin/management/newdiscount"));
 
 const App = () => {
-  // const { user, loading } = useSelector(
-  //   (state: RootState) => state.userReducer
-  // );
-  signOut(auth).then(() => console.log("Signed Out"));  
+  const { user, loading } = useSelector(
+    (state: RootState) => state.userReducer
+  );
+  
 
   const dispatch = useDispatch();
 
