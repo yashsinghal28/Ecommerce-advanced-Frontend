@@ -8,6 +8,9 @@
     margin: auto;
 
     > section {
+      Slider{
+        object-fit: contain;
+      }
       &:first-of-type {
         width: 40%;
         height: 60vh;
