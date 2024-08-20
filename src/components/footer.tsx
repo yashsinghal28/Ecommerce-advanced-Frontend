@@ -70,13 +70,13 @@ const Footer = () => {
               <a href="#">
                 <FaFacebookF />
               </a>
-              <a href="#">
+              <a href="https://x.com/yashsin73454074">
                 <FaTwitter />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/yash_singhal____/">
                 <FaInstagram />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/yash-singhal-848537226/">
                 <FaLinkedinIn />
               </a>
             </div>
