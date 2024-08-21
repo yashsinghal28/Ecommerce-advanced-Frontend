@@ -52,7 +52,6 @@ const App = () => {
   const { user, loading } = useSelector(
     (state: RootState) => state.userReducer
   );
-  signOut(auth).then(() => console.log("Signed Out"));  
 
   const dispatch = useDispatch();
 
